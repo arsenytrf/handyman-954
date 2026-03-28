@@ -1,0 +1,43 @@
+export const basePath = "/handyman-954";
+
+export const company = {
+  name: "954 Handyman Services",
+  shortName: "954 Handyman",
+  tagline: "We Show Up. We Get It Done.",
+  phone: "(954) 445-7471",
+  phoneRaw: "9544457471",
+  phoneLink: "tel:9544457471",
+  whatsapp: "https://wa.me/19544457471",
+  telegram: "https://t.me/+19544457471",
+  email: "954handymanservices@gmail.com",
+  emailLink: "mailto:954handymanservices@gmail.com",
+  location: "Broward County, FL",
+  serviceArea: "Miami to Boca Raton",
+  cities: [
+    "Fort Lauderdale",
+    "Hollywood",
+    "Pompano Beach",
+    "Deerfield Beach",
+    "Boca Raton",
+    "Coral Springs",
+    "Plantation",
+    "Davie",
+    "Sunrise",
+    "Miramar",
+    "Pembroke Pines",
+    "Weston",
+    "Miami",
+    "Miami Beach",
+  ],
+  pricing: {
+    hourly: "$45/hr",
+    minimum: "2-hour minimum",
+    note: "Flat-rate available for larger projects",
+  },
+  hours: {
+    weekday: "Mon-Sat: 7:00 AM - 7:00 PM",
+    weekend: "Sun: By appointment",
+  },
+  formAction: "https://formspree.io/f/placeholder",
+  url: "https://qrseni.github.io/handyman-954",
+} as const;
