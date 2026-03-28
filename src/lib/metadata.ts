@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { company, basePath } from "@/data/company";
+import { company } from "@/data/company";
 
 export function createMetadata({
   title,
@@ -28,7 +28,7 @@ export function createMetadata({
       siteName: company.name,
       images: [
         {
-          url: `${basePath}/images/og-image.png`,
+          url: `/images/og-image.png`,
           width: 1200,
           height: 630,
         },
@@ -40,7 +40,7 @@ export function createMetadata({
       card: "summary_large_image",
       title: ogTitle || title,
       description: ogDescription || description,
-      images: [`${basePath}/images/og-image.png`],
+      images: [`/images/og-image.png`],
     },
   };
 }
