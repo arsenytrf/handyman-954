@@ -39,5 +39,5 @@ export const company = {
     weekend: "Sun: By appointment",
   },
   formAction: "https://formspree.io/f/placeholder",
-  url: "https://qrseni.github.io/handyman-954",
+  url: "https://arsenytrf.github.io/handyman-954",
 } as const;
